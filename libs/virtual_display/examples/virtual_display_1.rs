@@ -12,6 +12,7 @@ fn prompt_input() -> u8 {
     println!("       5. 'd'       5. destroy device");
     println!("       6. '1'       6. plug in monitor 0,1,2");
     println!("       7. '4'       7. plug out monitor 0,1,2");
+    
 
     io::stdin()
         .bytes()
