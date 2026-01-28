@@ -5,7 +5,7 @@ authors = ["bairemote <info@bairemote.com>"]
 edition = "2021"
 build= "build.rs"
 description = "A remote control software"
-default-run = "bairemote"
+default-run = "BaiRemote"
 rust-version = "1.75"
 
 [lib]
