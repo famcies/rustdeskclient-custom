@@ -1,11 +1,11 @@
 [package]
-name = "BaiRemote"
+name = "bairemote"
 version = "1.4.4"
 authors = ["bairemote <info@bairemote.com>"]
 edition = "2021"
 build= "build.rs"
 description = "A remote control software"
-default-run = "BaiRemote"
+default-run = "bairemote"
 rust-version = "1.75"
 
 [lib]
