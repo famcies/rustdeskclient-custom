@@ -1,10 +1,10 @@
 [package]
 name = "rustdesk"
 version = "1.4.4"
-authors = ["rustdesk <info@rustdesk.com>"]
+authors = ["bairemote <info@bairemote.com>"]
 edition = "2021"
 build= "build.rs"
-description = "RustDesk Remote Desktop"
+description = "A remote control software"
 default-run = "rustdesk"
 rust-version = "1.75"
 
@@ -220,7 +220,7 @@ docopt = "1.1"
 
 [package.metadata.bundle]
 name = "RustDesk"
-identifier = "com.carriez.rustdesk"
+identifier = "com.bairemote.remote"
 icon = ["res/32x32.png", "res/128x128.png", "res/128x128@2x.png"]
 osx_minimum_system_version = "10.14"
 
